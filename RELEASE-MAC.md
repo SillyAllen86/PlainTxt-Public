@@ -3,12 +3,10 @@
 ## App Overview
 
 **App Name:** Plaintxt  
-**Version:** 1.0 (Build 1)  
-**Bundle Identifier:** DTRH.com.pravin.Plaintxt-Mac  
+**Version:** 1.0
 **Category:** Productivity  
 **Platform:** macOS 13.0+  
 **Developer:** DTRH Group (Down The Rabbit Hole)  
-**Release Date:** TBD  
 
 ## Description
 
@@ -131,33 +129,9 @@ Not required - app is fully functional without any account setup.
 
 ### Business Model
 - **Type**: Paid (One-time purchase)
-- **Price**: $2.99 USD
-- **Currency**: USD
+- **Price**: 2.99 Euros
+- **Currency**: Euros
 - **Availability**: Worldwide
-
-### Regional Pricing
-- **United States**: $2.99
-- **United Kingdom**: £2.99
-- **European Union**: €2.99
-- **Canada**: $3.99 CAD
-- **Australia**: $4.49 AUD
-- **Japan**: ¥400
-
-## Screenshots & Marketing Assets
-
-### Required Screenshots
-1. **Main Editor View**: Clean interface with sample text
-2. **Document Browser**: Native macOS document picker
-3. **Word Count Display**: Statistics bar with word/character count
-4. **Font Size Menu**: Customizable font size options
-5. **Dark Mode**: Dark theme appearance
-6. **Accessibility Demo**: VoiceOver and accessibility features
-
-### App Icon
-- **Size**: 1024x1024 pixels
-- **Format**: PNG (no transparency)
-- **Style**: Clean, minimalist design
-- **Colors**: Accent color with system background
 
 ## Release Notes
 
@@ -178,16 +152,7 @@ Not required - app is fully functional without any account setup.
 ### User Support
 - **App Store Reviews**: Primary support channel
 - **Email Support**: Available through App Store
-- **Documentation**: Built-in help and tooltips
 
-### Known Issues
-- None at initial release
-
-### Future Updates
-- Additional file format support
-- Enhanced customization options
-- Performance optimizations
-- New accessibility features
 
 ## Legal Information
 
@@ -211,19 +176,7 @@ This app does not contain, use, or access encryption technology that requires ex
 ### App Information
 - **Name**: Plaintxt
 - **Subtitle**: Simple, Focused Text Editor
-- **Bundle ID**: DTRH.com.pravin.Plaintxt-Mac
-- **SKU**: plaintxt-mac-001
 - **Version**: 1.0
-- **Build**: 1
 
 ### Content Rights
 I confirm that I have the rights to upload and distribute this content.
-
-### App Review
-- **Review Notes**: Simple text editor with iCloud integration
-- **Demo Account**: Not required
-- **Contact Information**: Available in App Store Connect
-
----
-
-*This document contains all information required for App Store submission and public release of Plaintxt for macOS.*
