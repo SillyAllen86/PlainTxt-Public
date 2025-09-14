@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macOS Release Information - Plaintxt</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+            color: #1d1d1f;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #007AFF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .app-info {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .info-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .info-label {
+            font-weight: 600;
+            color: #007AFF;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            color: #333;
+            font-size: 1rem;
+        }
+        
+        .section {
+            margin: 40px 0;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #1d1d1f;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            margin: 25px 0 15px 0;
+            color: #1d1d1f;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .feature h4 {
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            background: #f0f8ff;
+            border: 1px solid #007AFF;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .highlight h3 {
+            color: #007AFF;
+            margin-top: 0;
+        }
+        
+        .requirements {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .requirements h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            color: #666;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1d1d1f;
+                color: #f5f5f7;
+            }
+            
+            h1, h2, h3, h4 {
+                color: #f5f5f7;
+            }
+            
+            .app-info, .feature {
+                background: #2c2c2e;
+                border-color: #3a3a3c;
+            }
+            
+            .info-item {
+                background: #3a3a3c;
+                border-color: #48484a;
+            }
+            
+            .highlight {
+                background: #1a1a2e;
+                border-color: #007AFF;
+            }
+            
+            .requirements {
+                background: #2d2a1a;
+                border-color: #ffeaa7;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Plaintxt</a>
+        
+        <header>
+            <h1>macOS Release Information</h1>
+            <p class="subtitle">Plaintxt for Mac</p>
+        </header>
+
+        <div class="app-info">
+            <h2>App Overview</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">App Name</div>
+                    <div class="info-value">Plaintxt</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Version</div>
+                    <div class="info-value">1.0 (Build 1)</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Bundle ID</div>
+                    <div class="info-value">DTRH.com.pravin.Plaintxt-Mac</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Category</div>
+                    <div class="info-value">Productivity</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Platform</div>
+                    <div class="info-value">macOS 13.0+</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Developer</div>
+                    <div class="info-value">DTRH Group</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Description</h2>
+            <p>Plaintxt is a minimalist text editor designed for macOS that focuses on clarity and productivity. Built with SwiftUI, it provides a clean, distraction-free environment for writing and editing plain text documents with seamless iCloud integration.</p>
+        </div>
+
+        <div class="section">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h4>Clean Interface</h4>
+                    <p>Monospace font with customizable size (9-24pt) for better readability and focus on your content.</p>
+                </div>
+                <div class="feature">
+                    <h4>iCloud Sync</h4>
+                    <p>Automatic document synchronization across all your devices using Apple's secure iCloud infrastructure.</p>
+                </div>
+                <div class="feature">
+                    <h4>Document Management</h4>
+                    <p>Native macOS document browser integration for easy file organization and management.</p>
+                </div>
+                <div class="feature">
+                    <h4>Word & Character Count</h4>
+                    <p>Real-time statistics with toggle visibility to track your writing progress.</p>
+                </div>
+                <div class="feature">
+                    <h4>Keyboard Shortcuts</h4>
+                    <p>Full keyboard navigation and shortcuts for power users and accessibility.</p>
+                </div>
+                <div class="feature">
+                    <h4>Accessibility</h4>
+                    <p>Complete VoiceOver and accessibility support with full keyboard navigation.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Technical Specifications</h2>
+            <ul>
+                <li><strong>Minimum macOS Version:</strong> 13.0 (Ventura)</li>
+                <li><strong>Architecture:</strong> Universal (Intel x64 + Apple Silicon)</li>
+                <li><strong>File Size:</strong> ~2.5 MB</li>
+                <li><strong>Memory Usage:</strong> ~15-25 MB typical</li>
+                <li><strong>Storage:</strong> Documents stored in iCloud Drive (optional)</li>
+                <li><strong>File Format:</strong> UTF-8 plain text (.txt) files</li>
+                <li><strong>Dependencies:</strong> Pure SwiftUI implementation</li>
+            </ul>
+        </div>
+
+        <div class="requirements">
+            <h3>System Requirements</h3>
+            <ul>
+                <li><strong>macOS:</strong> 13.0 or later</li>
+                <li><strong>Processor:</strong> Intel x64 or Apple Silicon (M1/M2/M3)</li>
+                <li><strong>Memory:</strong> 4 GB RAM minimum</li>
+                <li><strong>Storage:</strong> 10 MB available space</li>
+                <li><strong>Network:</strong> Internet connection for iCloud sync (optional)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>App Store Information</h2>
+            <h3>Marketing Description</h3>
+            <p><strong>Short Description (30 characters):</strong> Clean text editor with iCloud</p>
+            
+            <p><strong>Full Description:</strong></p>
+            <p>Plaintxt is a minimalist text editor designed for macOS that focuses on clarity and productivity. Whether you're writing notes, drafting documents, or coding, Plaintxt provides a distraction-free environment with powerful features:</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Clean, monospace interface for better readability</li>
+                <li>iCloud sync across all your devices</li>
+                <li>Automatic save and document persistence</li>
+                <li>Native macOS document browser integration</li>
+                <li>Customizable font size (9-24pt)</li>
+                <li>Real-time word and character count</li>
+                <li>Full keyboard shortcuts support</li>
+                <li>Dark mode support</li>
+                <li>Complete accessibility support</li>
+                <li>No ads, no subscriptions, no tracking</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Privacy & Security</h2>
+            <div class="highlight">
+                <h3>🔒 Privacy Summary</h3>
+                <p><strong>This app does not collect, use, or share any personal data.</strong> All documents are stored locally and optionally synced via iCloud using Apple's secure infrastructure. No data is transmitted to third-party servers.</p>
+            </div>
+            
+            <h3>Data Collection</h3>
+            <ul>
+                <li><strong>No Personal Data Collected:</strong> App does not collect any personal information</li>
+                <li><strong>No Analytics:</strong> No usage tracking or analytics</li>
+                <li><strong>No Third-Party Services:</strong> No external data sharing</li>
+            </ul>
+            
+            <h3>Data Storage</h3>
+            <ul>
+                <li><strong>Local Storage:</strong> Documents stored locally on device</li>
+                <li><strong>iCloud Storage:</strong> Optional synchronization via Apple's iCloud Drive</li>
+                <li><strong>File Format:</strong> Standard UTF-8 plain text files</li>
+                <li><strong>Encryption:</strong> All data encrypted in transit and at rest via iCloud</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>App Store Review Information</h2>
+            <h3>Review Notes</h3>
+            <ul>
+                <li>Simple text editor with iCloud integration</li>
+                <li>No network functionality except iCloud sync</li>
+                <li>Follows all Apple design guidelines</li>
+                <li>Fully accessible with VoiceOver support</li>
+                <li>Native macOS document browser integration</li>
+                <li>No external dependencies or frameworks</li>
+            </ul>
+            
+            <h3>Demo Account</h3>
+            <p>Not required - app is fully functional without any account setup.</p>
+        </div>
+
+        <div class="section">
+            <h2>Pricing & Availability</h2>
+            <h3>Business Model</h3>
+            <ul>
+                <li><strong>Type:</strong> Paid (One-time purchase)</li>
+                <li><strong>Price:</strong> $2.99 USD</li>
+                <li><strong>Currency:</strong> USD</li>
+                <li><strong>Availability:</strong> Worldwide</li>
+            </ul>
+            
+            <h3>Regional Pricing</h3>
+            <ul>
+                <li>United States: $2.99</li>
+                <li>United Kingdom: £2.99</li>
+                <li>European Union: €2.99</li>
+                <li>Canada: $3.99 CAD</li>
+                <li>Australia: $4.49 AUD</li>
+                <li>Japan: ¥400</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Release Notes</h2>
+            <h3>Version 1.0 (Initial Release)</h3>
+            <ul>
+                <li>Initial release of Plaintxt for macOS</li>
+                <li>Clean monospace text editor interface</li>
+                <li>iCloud Documents integration</li>
+                <li>Customizable font size (9-24pt)</li>
+                <li>Real-time word and character count</li>
+                <li>Native macOS document browser</li>
+                <li>Full keyboard shortcuts support</li>
+                <li>Complete accessibility support</li>
+                <li>Dark mode support</li>
+                <li>Document-based file management</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>macOS-Specific Features</h2>
+            <h3>Window Management</h3>
+            <ul>
+                <li>Native macOS window controls and behavior</li>
+                <li>Support for multiple windows</li>
+                <li>Full-screen mode support</li>
+                <li>Split View compatibility</li>
+            </ul>
+            
+            <h3>Menu Bar Integration</h3>
+            <ul>
+                <li>Standard macOS menu bar with File, Edit, View, Window, and Help menus</li>
+                <li>Keyboard shortcuts displayed in menus</li>
+                <li>Native macOS keyboard shortcuts (Cmd+S, Cmd+O, etc.)</li>
+            </ul>
+            
+            <h3>Font Customization</h3>
+            <ul>
+                <li>Adjustable font size from 9pt to 24pt</li>
+                <li>System font integration</li>
+                <li>Monospace font for better code and text editing</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Accessibility Features</h2>
+            <h3>VoiceOver Support</h3>
+            <ul>
+                <li>Full VoiceOver Integration: Complete screen reader support</li>
+                <li>Custom Labels: All UI elements properly labeled</li>
+                <li>Navigation: Intuitive VoiceOver navigation</li>
+                <li>Hints: Descriptive accessibility hints for all actions</li>
+            </ul>
+            
+            <h3>Other Accessibility Features</h3>
+            <ul>
+                <li>Dynamic Type: Supports all macOS text size preferences</li>
+                <li>High Contrast: Compatible with high contrast mode</li>
+                <li>Reduce Motion: Respects reduce motion preferences</li>
+                <li>Switch Control: Compatible with switch control navigation</li>
+                <li>Voice Control: Full voice control support</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 DTRH Group (Down The Rabbit Hole). All rights reserved.</p>
+            <p>Built with SwiftUI for macOS 13.0+</p>
+        </footer>
+    </div>
+</body>
+</html>
