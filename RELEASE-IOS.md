@@ -12,7 +12,7 @@
 
 ## Description
 
-Plaintxt is a minimalist text editor designed for iOS that focuses on clarity and productivity. Built with SwiftUI, it provides a clean, distraction-free environment for writing and editing plain text documents with seamless iCloud integration across iPhone and iPad.
+Plaintxt is a minimalist text editor designed for iOS that focuses on clarity and productivity. Built with SwiftUI, it provides a clean, distraction-free environment for writing and editing plain text documents with seamless iCloud integration across iPhone and Mac.
 
 ### Key Features
 
@@ -34,12 +34,6 @@ Plaintxt is a minimalist text editor designed for iOS that focuses on clarity an
 - **Memory Usage**: ~10-20 MB typical
 - **Storage**: Documents stored in iCloud Drive (optional)
 
-## App Store Information
-
-### Marketing Description
-
-**Short Description (30 characters):**
-Clean text editor with iCloud
 
 **Full Description:**
 Plaintxt is a minimalist text editor designed for iOS that focuses on clarity and productivity. Whether you're writing notes, drafting documents, or coding, Plaintxt provides a distraction-free environment with powerful features:
@@ -132,41 +126,10 @@ Not required - app is fully functional without any account setup.
 
 ### Business Model
 - **Type**: Paid (One-time purchase)
-- **Price**: $2.99 USD
-- **Currency**: USD
+- **Price**: 2.99 Euros
+- **Currency**: Euros
 - **Availability**: Worldwide
 
-### Regional Pricing
-- **United States**: $2.99
-- **United Kingdom**: £2.99
-- **European Union**: €2.99
-- **Canada**: $3.99 CAD
-- **Australia**: $4.49 AUD
-- **Japan**: ¥400
-
-## Screenshots & Marketing Assets
-
-### Required Screenshots
-
-#### iPhone (6.7" Display)
-1. **Main Editor View**: Clean interface with sample text
-2. **Document Browser**: Native iOS document picker
-3. **Word Count Display**: Statistics with word/character count
-4. **Dark Mode**: Dark theme appearance
-5. **Accessibility Demo**: VoiceOver and accessibility features
-
-#### iPad (12.9" Display)
-1. **Split Screen**: Document browser with editor
-2. **Landscape View**: Full-screen editing experience
-3. **Document Management**: File organization interface
-4. **Multitasking**: App switching and background operation
-5. **Keyboard Shortcuts**: External keyboard support
-
-### App Icon
-- **Size**: 1024x1024 pixels
-- **Format**: PNG (no transparency)
-- **Style**: Clean, minimalist design
-- **Colors**: Accent color with system background
 
 ## Release Notes
 
@@ -181,23 +144,6 @@ Not required - app is fully functional without any account setup.
 - Complete accessibility support
 - Dark mode support
 - Document-based file management
-
-## Support & Documentation
-
-### User Support
-- **App Store Reviews**: Primary support channel
-- **Email Support**: Available through App Store
-- **Documentation**: Built-in help and tooltips
-
-### Known Issues
-- None at initial release
-
-### Future Updates
-- Additional file format support
-- Enhanced customization options
-- Performance optimizations
-- New accessibility features
-- iPad-specific enhancements
 
 ## Legal Information
 
@@ -221,7 +167,6 @@ This app does not contain, use, or access encryption technology that requires ex
 ### App Information
 - **Name**: Plaintxt
 - **Subtitle**: Simple, Focused Text Editor
-- **Bundle ID**: DTRH.com.pravin.Plaintxt
 - **SKU**: plaintxt-ios-001
 - **Version**: 1.0
 - **Build**: 1
@@ -260,45 +205,6 @@ I confirm that I have the rights to upload and distribute this content.
 - **iPhone 8**: Optimized
 - **iPhone SE (3rd generation)**: Optimized
 - **iPhone SE (2nd generation)**: Optimized
-
-### iPad
-- **iPad Pro 12.9-inch (6th generation)**: Optimized
-- **iPad Pro 12.9-inch (5th generation)**: Optimized
-- **iPad Pro 12.9-inch (4th generation)**: Optimized
-- **iPad Pro 12.9-inch (3rd generation)**: Optimized
-- **iPad Pro 11-inch (4th generation)**: Optimized
-- **iPad Pro 11-inch (3rd generation)**: Optimized
-- **iPad Pro 11-inch (2nd generation)**: Optimized
-- **iPad Pro 11-inch (1st generation)**: Optimized
-- **iPad Pro 10.5-inch**: Optimized
-- **iPad Pro 9.7-inch**: Optimized
-- **iPad Air (5th generation)**: Optimized
-- **iPad Air (4th generation)**: Optimized
-- **iPad Air (3rd generation)**: Optimized
-- **iPad (10th generation)**: Optimized
-- **iPad (9th generation)**: Optimized
-- **iPad (8th generation)**: Optimized
-- **iPad (7th generation)**: Optimized
-- **iPad mini (6th generation)**: Optimized
-- **iPad mini (5th generation)**: Optimized
-
-### iPod touch
-- **iPod touch (7th generation)**: Optimized
-
-## Accessibility Features
-
-### VoiceOver Support
-- **Full VoiceOver Integration**: Complete screen reader support
-- **Custom Labels**: All UI elements properly labeled
-- **Navigation**: Intuitive VoiceOver navigation
-- **Hints**: Descriptive accessibility hints for all actions
-
-### Other Accessibility Features
-- **Dynamic Type**: Supports all iOS text size preferences
-- **High Contrast**: Compatible with high contrast mode
-- **Reduce Motion**: Respects reduce motion preferences
-- **Switch Control**: Compatible with switch control navigation
-- **Voice Control**: Full voice control support
 
 ---
 
