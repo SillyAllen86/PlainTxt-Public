@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>macOS Release Information - Plaintxt</title>
+    <title>Release Information - Plaintxt</title>
     <style>
         * {
             margin: 0;
@@ -165,6 +165,20 @@
             margin-top: 0;
         }
         
+        .platform-section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            border: 1px solid #e9ecef;
+        }
+        
+        .platform-section h3 {
+            color: #007AFF;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        
         footer {
             text-align: center;
             margin-top: 60px;
@@ -183,7 +197,7 @@
                 color: #f5f5f7;
             }
             
-            .app-info, .feature {
+            .app-info, .feature, .platform-section {
                 background: #2c2c2e;
                 border-color: #3a3a3c;
             }
@@ -210,8 +224,8 @@
         <a href="index.html" class="back-link">← Back to Plaintxt</a>
         
         <header>
-            <h1>macOS Release Information</h1>
-            <p class="subtitle">Plaintxt for Mac</p>
+            <h1>Release Information</h1>
+            <p class="subtitle">Plaintxt for iOS and macOS</p>
         </header>
 
         <div class="app-info">
@@ -226,16 +240,12 @@
                     <div class="info-value">1.0 (Build 1)</div>
                 </div>
                 <div class="info-item">
-                    <div class="info-label">Bundle ID</div>
-                    <div class="info-value">DTRH.com.pravin.Plaintxt-Mac</div>
-                </div>
-                <div class="info-item">
                     <div class="info-label">Category</div>
                     <div class="info-value">Productivity</div>
                 </div>
                 <div class="info-item">
-                    <div class="info-label">Platform</div>
-                    <div class="info-value">macOS 13.0+</div>
+                    <div class="info-label">Platforms</div>
+                    <div class="info-value">iOS & macOS</div>
                 </div>
                 <div class="info-item">
                     <div class="info-label">Developer</div>
@@ -246,7 +256,7 @@
 
         <div class="section">
             <h2>Description</h2>
-            <p>Plaintxt is a minimalist text editor designed for macOS that focuses on clarity and productivity. Built with SwiftUI, it provides a clean, distraction-free environment for writing and editing plain text documents with seamless iCloud integration.</p>
+            <p>Plaintxt is a minimalist text editor designed for clarity and productivity. Built with SwiftUI, it provides a clean, distraction-free environment for writing and editing plain text documents with seamless iCloud integration across iPhone, iPad, and Mac.</p>
         </div>
 
         <div class="section">
@@ -254,7 +264,7 @@
             <div class="feature-grid">
                 <div class="feature">
                     <h4>Clean Interface</h4>
-                    <p>Monospace font with customizable size (9-24pt) for better readability and focus on your content.</p>
+                    <p>Monospace font with system-optimized sizing for better readability and focus on your content.</p>
                 </div>
                 <div class="feature">
                     <h4>iCloud Sync</h4>
@@ -262,44 +272,53 @@
                 </div>
                 <div class="feature">
                     <h4>Document Management</h4>
-                    <p>Native macOS document browser integration for easy file organization and management.</p>
+                    <p>Native document browser integration for easy file organization and management.</p>
                 </div>
                 <div class="feature">
                     <h4>Word & Character Count</h4>
                     <p>Real-time statistics with toggle visibility to track your writing progress.</p>
                 </div>
                 <div class="feature">
-                    <h4>Keyboard Shortcuts</h4>
-                    <p>Full keyboard navigation and shortcuts for power users and accessibility.</p>
+                    <h4>Universal App</h4>
+                    <p>Works seamlessly on iPhone, iPad, and Mac with native document browser integration.</p>
                 </div>
                 <div class="feature">
                     <h4>Accessibility</h4>
-                    <p>Complete VoiceOver and accessibility support with full keyboard navigation.</p>
+                    <p>Complete VoiceOver and accessibility support with full keyboard navigation and shortcuts.</p>
                 </div>
             </div>
         </div>
 
-        <div class="section">
-            <h2>Technical Specifications</h2>
+        <div class="platform-section">
+            <h3>iOS Requirements</h3>
             <ul>
-                <li><strong>Minimum macOS Version:</strong> 13.0 (Ventura)</li>
-                <li><strong>Architecture:</strong> Universal (Intel x64 + Apple Silicon)</li>
-                <li><strong>File Size:</strong> ~2.5 MB</li>
-                <li><strong>Memory Usage:</strong> ~15-25 MB typical</li>
-                <li><strong>Storage:</strong> Documents stored in iCloud Drive (optional)</li>
-                <li><strong>File Format:</strong> UTF-8 plain text (.txt) files</li>
-                <li><strong>Dependencies:</strong> Pure SwiftUI implementation</li>
+                <li><strong>iOS:</strong> 16.0 or later</li>
+                <li><strong>Device:</strong> iPhone, iPad, iPod touch</li>
+                <li><strong>Memory:</strong> 2 GB RAM minimum</li>
+                <li><strong>Storage:</strong> 10 MB available space</li>
+                <li><strong>Architecture:</strong> Universal (arm64)</li>
             </ul>
         </div>
 
-        <div class="requirements">
-            <h3>System Requirements</h3>
+        <div class="platform-section">
+            <h3>macOS Requirements</h3>
             <ul>
                 <li><strong>macOS:</strong> 13.0 or later</li>
                 <li><strong>Processor:</strong> Intel x64 or Apple Silicon (M1/M2/M3)</li>
                 <li><strong>Memory:</strong> 4 GB RAM minimum</li>
                 <li><strong>Storage:</strong> 10 MB available space</li>
-                <li><strong>Network:</strong> Internet connection for iCloud sync (optional)</li>
+                <li><strong>Architecture:</strong> Universal (Intel + Apple Silicon)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technical Specifications</h2>
+            <ul>
+                <li><strong>File Format:</strong> UTF-8 plain text (.txt) files</li>
+                <li><strong>Dependencies:</strong> Pure SwiftUI implementation</li>
+                <li><strong>Storage:</strong> Documents stored in iCloud Drive (optional)</li>
+                <li><strong>File Size:</strong> ~2.0 MB (iOS), ~2.5 MB (macOS)</li>
+                <li><strong>Memory Usage:</strong> ~10-20 MB typical (iOS), ~15-25 MB typical (macOS)</li>
             </ul>
         </div>
 
@@ -309,15 +328,15 @@
             <p><strong>Short Description (30 characters):</strong> Clean text editor with iCloud</p>
             
             <p><strong>Full Description:</strong></p>
-            <p>Plaintxt is a minimalist text editor designed for macOS that focuses on clarity and productivity. Whether you're writing notes, drafting documents, or coding, Plaintxt provides a distraction-free environment with powerful features:</p>
+            <p>Plaintxt is a minimalist text editor designed for clarity and productivity. Whether you're writing notes, drafting documents, or coding, Plaintxt provides a distraction-free environment with powerful features:</p>
             
             <p><strong>Key Features:</strong></p>
             <ul>
                 <li>Clean, monospace interface for better readability</li>
                 <li>iCloud sync across all your devices</li>
                 <li>Automatic save and document persistence</li>
-                <li>Native macOS document browser integration</li>
-                <li>Customizable font size (9-24pt)</li>
+                <li>Universal app - works on iPhone, iPad, and Mac</li>
+                <li>Document-based architecture for easy file management</li>
                 <li>Real-time word and character count</li>
                 <li>Full keyboard shortcuts support</li>
                 <li>Dark mode support</li>
@@ -357,7 +376,7 @@
                 <li>No network functionality except iCloud sync</li>
                 <li>Follows all Apple design guidelines</li>
                 <li>Fully accessible with VoiceOver support</li>
-                <li>Native macOS document browser integration</li>
+                <li>Native document browser integration</li>
                 <li>No external dependencies or frameworks</li>
             </ul>
             
@@ -366,66 +385,33 @@
         </div>
 
         <div class="section">
-            <h2>Pricing & Availability</h2>
-            <h3>Business Model</h3>
-            <ul>
-                <li><strong>Type:</strong> Paid (One-time purchase)</li>
-                <li><strong>Price:</strong> $2.99 USD</li>
-                <li><strong>Currency:</strong> USD</li>
-                <li><strong>Availability:</strong> Worldwide</li>
-            </ul>
-            
-            <h3>Regional Pricing</h3>
-            <ul>
-                <li>United States: $2.99</li>
-                <li>United Kingdom: £2.99</li>
-                <li>European Union: €2.99</li>
-                <li>Canada: $3.99 CAD</li>
-                <li>Australia: $4.49 AUD</li>
-                <li>Japan: ¥400</li>
-            </ul>
-        </div>
-
-        <div class="section">
             <h2>Release Notes</h2>
             <h3>Version 1.0 (Initial Release)</h3>
             <ul>
-                <li>Initial release of Plaintxt for macOS</li>
+                <li>Initial release of Plaintxt for iOS and macOS</li>
                 <li>Clean monospace text editor interface</li>
                 <li>iCloud Documents integration</li>
-                <li>Customizable font size (9-24pt)</li>
+                <li>Universal app for iPhone, iPad, and Mac</li>
                 <li>Real-time word and character count</li>
-                <li>Native macOS document browser</li>
+                <li>Native document browser integration</li>
                 <li>Full keyboard shortcuts support</li>
                 <li>Complete accessibility support</li>
                 <li>Dark mode support</li>
                 <li>Document-based file management</li>
+                <li>Customizable font size (macOS: 9-24pt)</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>macOS-Specific Features</h2>
-            <h3>Window Management</h3>
-            <ul>
-                <li>Native macOS window controls and behavior</li>
-                <li>Support for multiple windows</li>
-                <li>Full-screen mode support</li>
-                <li>Split View compatibility</li>
-            </ul>
+            <h2>Device Compatibility</h2>
+            <h3>iPhone</h3>
+            <p>Optimized for iPhone 8 and later, including all recent iPhone models.</p>
             
-            <h3>Menu Bar Integration</h3>
-            <ul>
-                <li>Standard macOS menu bar with File, Edit, View, Window, and Help menus</li>
-                <li>Keyboard shortcuts displayed in menus</li>
-                <li>Native macOS keyboard shortcuts (Cmd+S, Cmd+O, etc.)</li>
-            </ul>
+            <h3>iPad</h3>
+            <p>Optimized for iPad (7th generation) and later, including all iPad Pro, iPad Air, and iPad mini models.</p>
             
-            <h3>Font Customization</h3>
-            <ul>
-                <li>Adjustable font size from 9pt to 24pt</li>
-                <li>System font integration</li>
-                <li>Monospace font for better code and text editing</li>
-            </ul>
+            <h3>Mac</h3>
+            <p>Compatible with Intel and Apple Silicon Macs running macOS 13.0 or later.</p>
         </div>
 
         <div class="section">
@@ -440,7 +426,7 @@
             
             <h3>Other Accessibility Features</h3>
             <ul>
-                <li>Dynamic Type: Supports all macOS text size preferences</li>
+                <li>Dynamic Type: Supports all system text size preferences</li>
                 <li>High Contrast: Compatible with high contrast mode</li>
                 <li>Reduce Motion: Respects reduce motion preferences</li>
                 <li>Switch Control: Compatible with switch control navigation</li>
@@ -449,8 +435,8 @@
         </div>
 
         <footer>
-            <p>&copy; 2024 DTRH Group (Down The Rabbit Hole). All rights reserved.</p>
-            <p>Built with SwiftUI for macOS 13.0+</p>
+            <p>&copy; 2024 DTRH Group. All rights reserved.</p>
+            <p>Built with SwiftUI for iOS and macOS</p>
         </footer>
     </div>
 </body>
